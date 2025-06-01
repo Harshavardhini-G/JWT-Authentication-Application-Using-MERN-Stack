@@ -1,10 +1,8 @@
 # 📦 JWT Authentication Application Using MERN Stack
-
 project:
   name: "🔐 JWT Authentication Application Using MERN Stack"
   description: |
     This MERN stack application implements secure user authentication using JWT (JSON Web Tokens).
-
     Users can 📝 register, 🔑 login, and access 🔒 protected routes. The backend uses Node.js and Express,
     MongoDB as the database 🗄️, and the frontend is built with React ⚛️.
 
@@ -27,8 +25,6 @@ project:
     <td></td>
   </tr>
 </table>
-
-
 # ✨ Features
 
 - 📝 User registration with form validation  
