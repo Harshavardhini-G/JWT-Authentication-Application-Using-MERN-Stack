@@ -1,78 +1,50 @@
-# JWT-Authentication-Application-Using-MERN-Stack
+# 📦 JWT Authentication Application Using MERN Stack
+
 project:
-  name: "JWT Authentication Application Using MERN Stack"
+  name: "🔐 JWT Authentication Application Using MERN Stack"
   description: |
     This MERN stack application implements secure user authentication using JWT (JSON Web Tokens).
-    Users can register, login, and access protected routes. The backend uses Node.js and Express,
-    with MongoDB as the database, and the frontend is built with React.
+    Users can 📝 register, 🔑 login, and access 🔒 protected routes. The backend uses Node.js and Express,
+    MongoDB as the database 🗄️, and the frontend is built with React ⚛️.
 
 screenshots:
-  - step: 1
-    title: "App Open Page"
-    image_path: "https://i.postimg.cc/t4Zg6XJx/Screenshot-2025-06-01-220847.png"
- - step: 2
-    title: "Register Page"
-    image_path: "https://i.postimg.cc/MpCpbhfr/Screenshot-2025-06-01-220928.png"
-  - step: 3
-    title: "Registration Successful"
-    image_path: "https://i.postimg.cc/MG1KsdyZ/Screenshot-2025-06-01-224636.png"
-  - step: 4
-    title: "Database Store (MongoDB Data)"
-    image_path: "https://i.postimg.cc/kGYnVZds/Screenshot-2025-06-01-224757.png"
-  - step: 5
-    title: "Login Page"
-    image_path: "https://i.postimg.cc/154Rx9pj/Screenshot-2025-06-01-221011.png"
-  - step: 6
-    title: "Login Successful"
-    image_path: "https://i.postimg.cc/ZKgb41HK/Screenshot-2025-06-01-224302.png"
-  - step: 7
-    title: "Welcome Page After Login"
-    image_path: "https://i.postimg.cc/s2C3Z7bk/Screenshot-2025-06-01-224016.png"
-    ## 🔥 Screenshots
-
-### 1. App Open Page
-![App Open](https://i.postimg.cc/t4Zg6XJx/Screenshot-2025-06-01-220847.png)
-
-### 2. Register Page
-![Register](./screenshots/register.png)
-
-### 3. Registration Successful
-![Registration Successful](./screenshots/register-successful.png)
-
-### 4. Database Store (MongoDB)
-![DB Store](./screenshots/db-store.png)
-
-### 5. Login Page
-![Login](./screenshots/login.png)
-
-### 6. Login Successful
-![Login Successful](./screenshots/login-successful.png)
-
-### 7. Welcome Page After Login
-![Welcome Page](./screenshots/welcome.png)
-
+  - title: "📌 App Open Page"
+    image: "![App Open](https://i.postimg.cc/t4Zg6XJx/Screenshot-2025-06-01-220847.png)"
+  - title: "📝 Register Page"
+    image: "![Register](https://i.postimg.cc/MpCpbhfr/Screenshot-2025-06-01-220928.png)"
+  - title: "✅ Registration Successful"
+    image: "![Registration Successful](https://i.postimg.cc/MG1KsdyZ/Screenshot-2025-06-01-224636.png)"
+  - title: "💾 Database Store (MongoDB)"
+    image: "![DB Store](https://i.postimg.cc/kGYnVZds/Screenshot-2025-06-01-224757.png)"
+  - title: "🔐 Login Page"
+    image: "![Login](https://i.postimg.cc/154Rx9pj/Screenshot-2025-06-01-221011.png)"
+  - title: "✅ Login Successful"
+    image: "![Login Successful](https://i.postimg.cc/ZKgb41HK/Screenshot-2025-06-01-224302.png)"
+  - title: "👋 Welcome Page After Login"
+    image: "![Welcome Page](https://i.postimg.cc/s2C3Z7bk/Screenshot-2025-06-01-224016.png)"
 
 features:
-  - User registration with form validation
-  - Password hashing with bcrypt
-  - JWT token-based authentication for secure access
-  - React frontend with responsive design
-  - Protected routes with authentication checks
-  - MongoDB for persistent data storage
-  - Clear error handling and success messages
+  - "📝 User registration with form validation"
+  - "🔒 Password hashing with bcrypt"
+  - "🎟️ JWT token-based authentication for secure access"
+  - "⚛️ React frontend with responsive design"
+  - "🚪 Protected routes with authentication checks"
+  - "🗃️ MongoDB for persistent data storage"
+  - "✅ Clear error handling and success messages"
 
 installation:
   steps:
-    - "Clone the repository:"
+    - "📥 Clone the repository:"
     - "git clone https://github.com/Harshavardhini-G/JWT-Authentication-Application-Using-MERN-Stack.git"
+    - "📁 Navigate to project folder:"
     - "cd JWT-Authentication-Application-Using-MERN-Stack"
-    - "Install backend dependencies:"
+    - "📦 Install backend dependencies:"
     - "cd backend"
     - "npm install"
-    - "Install frontend dependencies:"
+    - "📦 Install frontend dependencies:"
     - "cd ../frontend"
     - "npm install"
-    - "Configure environment variables:"
+    - "⚙️ Configure environment variables:"
     - |
       Create a `.env` file in the `backend` folder with:
       ```
@@ -80,31 +52,29 @@ installation:
       JWT_SECRET=your_secret_key
       PORT=5000
       ```
-    - "Start backend server:"
+    - "▶️ Start backend server:"
+    - "cd backend"
     - "npm run server"
-    - "Start frontend app (in a new terminal):"
+    - "🖥️ Start frontend app (in a new terminal):"
     - "cd frontend"
     - "npm start"
-    - "Open the app in browser:"
+    - "🌐 Open the app in browser:"
     - "http://localhost:3000"
 
 usage:
   steps:
-    - "Register: Create a new user account using the registration form."
-    - "Verify: See confirmation of successful registration."
-    - "Login: Enter credentials to log in."
-    - "Welcome: Access the protected welcome page after login."
-    - "Data Storage: All user data is securely saved in MongoDB."
+    - "📝 Register: Create a new user account using the registration form."
+    - "✅ Verify: See confirmation of successful registration."
+    - "🔐 Login: Enter credentials to log in."
+    - "👋 Welcome: Access the protected welcome page after login."
+    - "🗄️ Data Storage: All user data is securely saved in MongoDB."
 
 contribution:
-  message: "Feel free to fork this repository and submit pull requests for improvements."
+  message: "🤝 Feel free to fork this repository and submit pull requests for improvements."
 
 author:
-  name: "Harshavardhini-G"
-  email: "harshavardhini.pdy@gmail.com"
+  name: "👩‍💻 Harshavardhini-G"
+  email: "📧 harshavardhini.pdy@gmail.com"
 
 license:
-  type: "MIT License"
-
- 
-
+  type: "📝 MIT License"
