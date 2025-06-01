@@ -28,6 +28,29 @@ screenshots:
   - step: 7
     title: "Welcome Page After Login"
     image_path: "https://i.postimg.cc/s2C3Z7bk/Screenshot-2025-06-01-224016.png"
+    ## 🔥 Screenshots
+
+### 1. App Open Page
+![App Open](https://i.postimg.cc/t4Zg6XJx/Screenshot-2025-06-01-220847.png)
+
+### 2. Register Page
+![Register](./screenshots/register.png)
+
+### 3. Registration Successful
+![Registration Successful](./screenshots/register-successful.png)
+
+### 4. Database Store (MongoDB)
+![DB Store](./screenshots/db-store.png)
+
+### 5. Login Page
+![Login](./screenshots/login.png)
+
+### 6. Login Successful
+![Login Successful](./screenshots/login-successful.png)
+
+### 7. Welcome Page After Login
+![Welcome Page](./screenshots/welcome.png)
+
 
 features:
   - User registration with form validation
